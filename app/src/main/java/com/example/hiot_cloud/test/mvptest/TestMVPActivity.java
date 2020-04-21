@@ -11,8 +11,6 @@ import android.widget.Toast;
 
 import com.example.hiot_cloud.R;
 import com.example.hiot_cloud.base.BaseActivity;
-import com.example.hiot_cloud.test.dagger2test.DaggerPresenterComponent;
-import com.example.hiot_cloud.test.dagger2test.PresenterComponent;
 import com.example.hiot_cloud.test.mvptest.model.User;
 
 import javax.inject.Inject;
