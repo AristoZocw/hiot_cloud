@@ -7,7 +7,7 @@ import dagger.Component;
 /**
  * 注入器测试接口
  */
-@Component
+@Component(modules = TestModule.class)
 public interface PresenterComponent {
 
     void inject(TestMVPActivity testMVPActivity);
